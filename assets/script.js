@@ -5,8 +5,15 @@ $( document ).ready(function() {
     console.log(moment().hour());
     $( "#currentDay" ).text(moment().format('dddd, MMMM Do'));
     $('textarea').removeClass('past').addClass('future');
-    if currentTime = time display correct textarea aka color = red
-    before < currentTime = gray
-    future > currentTime = green
-    // $() / 9
+    if(.hour = currentTime) {
+        turn aka change to aka display correct color = red  
+        display textarea background-color = red; based on currentTime
+    } 
+    if(before < currentTime) {
+        display correct textarea aka color = gray
+    } 
+    else(future > currentTime) {
+        display correct textarea aka color = green 
+    } 
+    // $() / 9 = textarea
 });
