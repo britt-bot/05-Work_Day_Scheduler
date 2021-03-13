@@ -21,7 +21,8 @@ $(document).ready(function() {
 
   //loop through time blocks
   $('textarea').each(function () {
-    var scheduleHour = parseInt($(this).attr('id').split('hour')[1]);
+    var scheduleHour = parseInt($(this).attr('id'));
+    
     if (scheduleHour < currentTime) {
     // display correct textarea aka color = gray
       $(this).removeClass('future');
@@ -43,8 +44,6 @@ $(document).ready(function() {
   })
 }
 // save button
-$(document).ready(function () {
-  // saveBtn click listener 
   $(".saveBtn").on("click", function () {
       // Get nearby values of the description in JQuery
       var text = $(this).siblings(".description").val();
@@ -52,19 +51,26 @@ $(document).ready(function () {
 
       // Save text in local storage
       localStorage.setItem(time, text);
-    });
+      console.log('bunnnnnnnnnny')
+  })
 
-    // Get item from local storage if any
-    $("#9am .description").val(localStorage.getItem("9am"));
-    $("#10am .description").val(localStorage.getItem("10am"));
-    $("#11am .description").val(localStorage.getItem("11am"));
-    $("#12pm .description").val(localStorage.getItem("12pm"));
-    $("#1pm .description").val(localStorage.getItem("1pm"));
-    $("#2pm .description").val(localStorage.getItem("2pm"));
-    $("#3pm .description").val(localStorage.getItem("3pm"));
-    $("#4pm .description").val(localStorage.getItem("4pm"));
-    $("#5pm .description").val(localStorage.getItem("5pm"));
-    $("#6pm .description").val(localStorage.getItem("6pm"));
+// Get item from local storage if any
+window.onbeforeunload = function() {
+  localStorage.setItem()
+
+
+  $("#9am .description").val(localStorage.getItem("9am"));
+  $("#10am .description").val(localStorage.getItem("10am"));
+  $("#11am .description").val(localStorage.getItem("11am"));
+  $("#12pm .description").val(localStorage.getItem("12pm"));
+  $("#1pm .description").val(localStorage.getItem("1pm"));
+  $("#2pm .description").val(localStorage.getItem("2pm"));
+  $("#3pm .description").val(localStorage.getItem("3pm"));
+  $("#4pm .description").val(localStorage.getItem("4pm"));
+  $("#5pm .description").val(localStorage.getItem("5pm"));
+  $("#6pm .description").val(localStorage.getItem("6pm"));
+  console.log('awwwwwwww');
+}
 
 timeColor();
 });
