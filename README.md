@@ -10,7 +10,8 @@ https://britt-bot.github.io/05-Work_Day_Scheduler/
 
 
 Screenshot:
-![image](https://user-images.githubusercontent.com/77466708/111206833-e6480400-8596-11eb-8eff-eb8ae755211b.png)
+![image](https://user-images.githubusercontent.com/77466708/111396625-7cf6ec80-868d-11eb-96fc-e31ebb096109.png)
+
 
 
 
