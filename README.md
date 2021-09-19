@@ -17,14 +17,14 @@ This table of contents is to make it easy for users to find what they need.
 
 Open the desired web browser and go to the page url for either the Repo or the Deployed project.
 
-[Homework 05 - Updated Portfolio Repo](https://github.com/britt-bot/05-Work_Day_Scheduler)
+[Homework 05 - Updated Portfolio Github Repo](https://github.com/britt-bot/05-Work_Day_Scheduler)
 
-[Homework 05 - Updated Portfolio Deployed](https://britt-bot.github.io/05-Work_Day_Scheduler/)
+[Homework 05 - Updated Portfolio Github Deploy](https://britt-bot.github.io/05-Work_Day_Scheduler/)
 
 
 ## Usage 
 
-A portfolio is a gathering of completed and in progress works, that are used to showcase a skilled person's end results and/or work styles.
+This app is used to plan your work day. 
 
 ![Screenshot](https://user-images.githubusercontent.com/77466708/111396625-7cf6ec80-868d-11eb-96fc-e31ebb096109.png)
 
