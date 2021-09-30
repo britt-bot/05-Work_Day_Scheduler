@@ -1,8 +1,8 @@
 ![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-# 05-Work Day Scheduler
+# Work_Day_Scheduler
 ## Description 
 
-This is a day scheduler. The hours should change color based on the current time and the user should be able to enter text and then click the save button to save the text, so that on page reload the information stays.
+This is a day scheduler application. The hours should change color based on the current time and the user should be able to enter text and then click the save button to save the text, so that on page reload the information stays.
 
 ## Table of Contents 
 
@@ -18,9 +18,9 @@ This table of contents is to make it easy for users to find what they need.
 
 Open the desired web browser and go to the page url for either the Repo or the Deployed project.
 
-[Workday Scheduler Github Repo](https://github.com/britt-bot/05-Work_Day_Scheduler)
+[Workday Scheduler Repo](https://github.com/britt-bot/05-Work_Day_Scheduler)
 
-[Workday Scheduler Github Deploy](https://britt-bot.github.io/05-Work_Day_Scheduler/)
+[Workday Scheduler Deploy](https://britt-bot.github.io/05-Work_Day_Scheduler/)
 
 
 ## Usage 
