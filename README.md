@@ -18,9 +18,9 @@ This table of contents is to make it easy for users to find what they need.
 
 Open the desired web browser and go to the page url for either the Repo or the Deployed project.
 
-[Workday Scheduler Repo](https://github.com/britt-bot/05-Work_Day_Scheduler)
+[Workday Scheduler Repo](https://github.com/britt-bot/Work_Day_Scheduler)
 
-[Workday Scheduler Deploy](https://britt-bot.github.io/05-Work_Day_Scheduler/)
+[Workday Scheduler Deploy](https://britt-bot.github.io/Work_Day_Scheduler)
 
 
 ## Usage 
@@ -29,8 +29,14 @@ This app is used to plan your work day.
 
 ![Screenshot](https://user-images.githubusercontent.com/77466708/111396625-7cf6ec80-868d-11eb-96fc-e31ebb096109.png)
 
+
 ## Credits
 
+Third Party Assets:
+
+[jQuery](https://jquery.com)
+
+[Moment.js](https://momentjs.com)
 
 
 ## License
